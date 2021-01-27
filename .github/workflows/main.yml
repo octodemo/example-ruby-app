@@ -52,3 +52,13 @@ jobs:
         # Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
           #            flags: -f sarif -o output.sarif
           flags: -v
+          
+          
+      - name: Run Brakeman 
+  # You may pin to the exact commit or the version.
+  # uses: artplan1/brakeman-action@164f2a414affc6358a78b19f530071975f353d17
+        uses: artplan1/brakeman-action@v1.2.1
+        with:
+        # Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
+          #            flags: -f sarif -o output.sarif
+          flags: "-f sarif -o output.sarif"
