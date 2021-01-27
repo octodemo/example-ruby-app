@@ -41,4 +41,4 @@ jobs:
         uses: artplan1/brakeman-action@v1.2.1
         with:
         # Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
-            flags: -f sarif and -o output.sarif
+            flags: -f sarif -o output.sarif
