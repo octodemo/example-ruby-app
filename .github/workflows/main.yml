@@ -61,4 +61,4 @@ jobs:
         with:
         # Flags (list of available flags: https://github.com/presidentbeef/brakeman#basic-options)
           #            flags: -f sarif -o output.sarif
-          flags: "-f sarif -o output.sarif"
+          flags: "-o output.sarif"
